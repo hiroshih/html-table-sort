@@ -64,7 +64,7 @@ function findParentNode(parentName, childObj) {
   return testObj;
 }
 
-var reA = /[^a-zA-Z]/g;
+var reA = /[0-9]/g;
 var reN = /[^-.0-9]/g;
 function sortAlphaNum(a,b) {
   var aA = a.replace(reA, "");
